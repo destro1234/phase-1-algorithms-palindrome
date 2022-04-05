@@ -1,11 +1,24 @@
 function isPalindrome(word) {
   // Write your algorithm here
+   let reverseString = word.toLowerCase().split('').reverse().join('')
+   return reverseString === word;
+  
 }
 
+
+// const lowerCase = word.toLowerCase()
+// console.log(lowerCase)
+
+// const backwards = lowerCase.split('').reverse().join('')
+// console.log(backwards)
+
+// return lowerCase === backwards
 /* 
   Add your pseudocode here
 */
-
+// function isPalindrome(string) {
+    // compare the letters in the string for matches 
+// }
 /*
   Add written explanation of your solution here
 */
